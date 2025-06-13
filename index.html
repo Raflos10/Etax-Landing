@@ -4,36 +4,11 @@ title: "E-Tax: Easy Tax Filing for Residents of Portugal"
 ---
 
 <div class="min-h-screen bg-gradient-to-b from-white to-gray-50">
+  {% include index/hero.html
+     title='Simplify your taxes with <span class="text-orange-500">E-Tax</span> <span>🇵🇹</span>'
+     description="Easy to use tool to help streamline the process of filing your tax form in Portugal. Designed for ease of use and simplicity."
+     %}
 
-  <section class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
-    <div class="md:w-1/2 mb-16 md:mb-0">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-        Simplify your taxes with
-        <span class="text-orange-500">E-Tax</span>
-        <span>🇵🇹</span>
-      </h1>
-      <p class="text-lg text-gray-600 mb-8 max-w-lg">
-        Easy to use tool to help streamline the process of filing your tax form in Portugal.
-        Designed for ease of use and simplicity.
-      </p>
-      <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-        <button class="cursor-pointer px-8 py-3 font-medium text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition duration-300">
-          Start Filing
-        </button>
-        <button class="cursor-pointer px-8 py-3 font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition duration-300">
-          View Demo
-        </button>
-      </div>
-    </div>
-    <div class="md:w-1/2 flex justify-center">
-      <div class="relative">
-        <div class="w-64 h-64 bg-orange-100 rounded-2xl"></div>
-        <div class="absolute -top-6 -right-6 w-72 h-72 bg-gray-200 rounded-2xl border-2 border-dashed border-gray-300"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Features Section -->
   <section class="py-20 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
@@ -44,35 +19,12 @@ title: "E-Tax: Easy Tax Filing for Residents of Portugal"
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300">
-          <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-            <div class="w-6 h-6 bg-orange-500 rounded-full"></div>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-3">Automated Submission</h3>
-          <p class="text-gray-600">
-            Save time with an automated submission process that handles interaction with Portal das Finanças so you can focus on only what's necessary.
-          </p>
-        </div>
-
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300">
-          <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-            <div class="w-6 h-6 bg-orange-500 rounded-full"></div>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-3">Personal Data Retention</h3>
-          <p class="text-gray-600">
-            Choose whether or not to allow the system to save your data, reducing the need to enter the same information again next year.
-          </p>
-        </div>
-
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300">
-          <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
-            <div class="w-6 h-6 bg-orange-500 rounded-full"></div>
-          </div>
-          <h3 class="text-xl font-semibold text-gray-900 mb-3">Data Encryption</h3>
-          <p class="text-gray-600">
-            All saved personal data is encrypted with state of the art PGP encryption, ensuring security, privacy and peace of mind.
-          </p>
-        </div>
+        {% include index/feature-card.html title="Automated Submission"
+          description="Save time with an automated submission process that handles interaction with Portal das Finanças so you can focus on only what's necessary." %}
+        {% include index/feature-card.html title="Personal Data Retention"
+          description="Choose whether or not to allow the system to save your data, reducing the need to enter the same information again next year." %}
+        {% include index/feature-card.html title="Data Encryption"
+          description="All saved personal data is encrypted with state of the art PGP encryption, ensuring security, privacy and peace of mind." %}
       </div>
     </div>
   </section>
