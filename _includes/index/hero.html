@@ -1,0 +1,17 @@
+<section class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+  <div class="md:w-1/2 mb-16 md:mb-0">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
+      {{ include.title }}
+    </h1>
+    <p class="text-lg text-gray-600 mb-8 max-w-lg">
+      {{ include.description }}
+    </p>
+    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+        {% include index/button.html text="Start Filing" variant="primary" %}
+        {% include index/button.html text="View Demo" variant="secondary" %}
+    </div>
+  </div>
+  <div class="md:w-1/2 flex justify-center">
+    {{ include.visual | default: '<div class="relative"><div class="w-64 h-64 bg-orange-100 rounded-2xl"></div><div class="absolute -top-6 -right-6 w-72 h-72 bg-gray-200 rounded-2xl border-2 border-dashed border-gray-300"></div></div>' }}
+  </div>
+</section>
