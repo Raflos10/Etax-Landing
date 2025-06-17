@@ -1,3 +1,3 @@
 <button class="cursor-pointer px-8 py-3 font-medium {{ include.variant | default: 'primary' | replace: 'primary', 'text-white bg-orange-500 hover:bg-orange-600' | replace: 'secondary', 'text-gray-700 bg-gray-100 hover:bg-gray-200' }} rounded-lg transition duration-300">
-  {{ include.text }}
+  {% t include.text_key %}
 </button>

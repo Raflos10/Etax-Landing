@@ -1,0 +1,40 @@
+# _i18n/en.yml
+site:
+  title: "E-Tax: Easy Tax Filing for Residents of Portugal"
+  tagline: "Simplify your taxes with"
+  description: "Easy to use tool to help streamline the process of filing your tax form in Portugal. Designed for ease of use and simplicity."
+
+nav:
+  home: "Home"
+  about: "About"
+  contact: "Contact"
+  demo: "Demo"
+
+buttons:
+  get_started: "Get Started"
+  start_filing: "Start Filing"
+  view_demo: "View Demo"
+  create_account: "Create Free Account"
+  learn_more: "Learn More"
+
+sections:
+  features_title: "How we help ease your tax burden"
+  features_subtitle: "Our streamlined application is designed to simplify the filing process, saving you time."
+  cta_title: "Ready to get started?"
+  cta_subtitle: "Join the many satisfied users who have filed their taxes using our platform."
+
+features:
+  automated:
+    title: "Automated Submission"
+    description: "Save time with an automated submission process that handles interaction with Portal das Finanças so you can focus on only what's necessary."
+  retention:
+    title: "Personal Data Retention"
+    description: "Choose whether or not to allow the system to save your data, reducing the need to enter the same information again next year."
+  encryption:
+    title: "Data Encryption"
+    description: "All saved personal data is encrypted with state of the art PGP encryption, ensuring security, privacy and peace of mind."
+
+footer:
+  copyright: "All rights reserved."
+  privacy: "Privacy Policy"
+  terms: "Terms of Service"

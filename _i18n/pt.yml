@@ -1,0 +1,39 @@
+site:
+  title: "E-Tax: Declaração de Impostos Fácil para Residentes de Portugal"
+  tagline: "Simplifique os seus impostos com"
+  description: "Ferramenta fácil de usar para ajudar a simplificar o processo de submissão da sua declaração de impostos em Portugal. Concebida para facilidade de uso e simplicidade."
+
+nav:
+  home: "Início"
+  about: "Sobre"
+  contact: "Contacto"
+  demo: "Demonstração"
+
+buttons:
+  get_started: "Começar"
+  start_filing: "Começar Declaração"
+  view_demo: "Ver Demonstração"
+  create_account: "Criar Conta Gratuita"
+  learn_more: "Saber Mais"
+
+sections:
+  features_title: "Como ajudamos a aliviar a sua carga fiscal"
+  features_subtitle: "A nossa aplicação simplificada foi concebida para simplificar o processo de declaração, poupando-lhe tempo."
+  cta_title: "Pronto para começar?"
+  cta_subtitle: "Junte-se aos muitos utilizadores satisfeitos que submeteram os seus impostos usando a nossa plataforma."
+
+features:
+  automated:
+    title: "Submissão Automatizada"
+    description: "Poupe tempo com um processo de submissão automatizado que trata da interação com o Portal das Finanças para que se possa concentrar apenas no que é necessário."
+  retention:
+    title: "Retenção de Dados Pessoais"
+    description: "Escolha se permite ou não que o sistema guarde os seus dados, reduzindo a necessidade de introduzir a mesma informação novamente no próximo ano."
+  encryption:
+    title: "Encriptação de Dados"
+    description: "Todos os dados pessoais guardados são encriptados com encriptação PGP de última geração, garantindo segurança, privacidade e tranquilidade."
+
+footer:
+  copyright: "Todos os direitos reservados."
+  privacy: "Política de Privacidade"
+  terms: "Termos de Serviço"

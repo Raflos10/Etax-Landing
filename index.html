@@ -1,46 +1,34 @@
 ---
 layout: default
-title: "E-Tax: Easy Tax Filing for Residents of Portugal"
 ---
 
 <div class="min-h-screen bg-gradient-to-b from-white to-gray-50">
-  {% include index/hero.html
-     title='Simplify your taxes with <span class="text-orange-500">E-Tax</span> <span>🇵🇹</span>'
-     description="Easy to use tool to help streamline the process of filing your tax form in Portugal. Designed for ease of use and simplicity."
-     %}
-
+  {% include index/hero.html %}
   <section class="py-20 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">How we help ease your tax burden</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">
-          Our streamlined application is designed to simplify the filing process, saving you time.
-        </p>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">{% t sections.features_title %}</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">{% t sections.features_subtitle %}</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-        {% include index/feature-card.html title="Automated Submission"
-          description="Save time with an automated submission process that handles interaction with Portal das Finanças so you can focus on only what's necessary." %}
-        {% include index/feature-card.html title="Personal Data Retention"
-          description="Choose whether or not to allow the system to save your data, reducing the need to enter the same information again next year." %}
-        {% include index/feature-card.html title="Data Encryption"
-          description="All saved personal data is encrypted with state of the art PGP encryption, ensuring security, privacy and peace of mind." %}
+        {% include index/feature-card.html title_key="features.automated.title" description_key="features.automated.description" %}
+        {% include index/feature-card.html title_key="features.retention.title" description_key="features.retention.description" %}
+        {% include index/feature-card.html title_key="features.encryption.title" description_key="features.encryption.description" %}
       </div>
     </div>
   </section>
 
   <section class="py-20 bg-white">
     <div class="max-w-4xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-gray-900 mb-6">Ready to get started?</h2>
-      <p class="text-gray-600 max-w-2xl mx-auto mb-10">
-        Join the many satisfied users who have filed their taxes using our platform.
-      </p>
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">{% t sections.cta_title %}</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-10">{% t sections.cta_subtitle %}</p>
       <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
         <button class="cursor-pointer px-8 py-3 font-medium text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition duration-300">
-          Create Free Account
+          {% t buttons.create_account %}
         </button>
         <button class="cursor-pointer px-8 py-3 font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition duration-300">
-          View the Demo
+          {% t buttons.view_demo %}
         </button>
       </div>
     </div>

@@ -1,8 +1,8 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{% t site.title %}</title>
     {% include favicon.html %}
     <link rel="stylesheet" href="/assets/css/tailwind.css">
   </head>
